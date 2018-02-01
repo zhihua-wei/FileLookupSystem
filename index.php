@@ -91,7 +91,7 @@
  *
  */
 function submit_variation(){
-	var path = $("").
+	var path = $("#path").val();
 }
 </script>
 <!--END SCRIPTS-->
