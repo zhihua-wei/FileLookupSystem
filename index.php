@@ -51,7 +51,7 @@
                 </p>
                 <p>
                     <label class="smallInput" for="file">文件名：</label><br/>
-                    <input type="text" name="file" id="file" value="" class="input round3"/>
+                    <input type="text" name="file" id="file" value="" placeholder="weicms.png" class="input round3"/>
                 </p>
             </div>
             <p id="emailMessage">
