@@ -58,7 +58,7 @@
                 <label class="smallInput" for="message">Message <span class="required">*</span></label><br/>
                 <textarea name="message" id="message" class="input round3"></textarea>
             </p>            
-            <input name="send" id="submit_btn" type="submit" class="round3 clearRight" value="Send Message"/>
+            <input name="send" id="submit_btn" type="submit" class="round3 clearRight" value="FIND FILE"/>
         </form>
     </div>
     <!--END CONTACT FORM-->
