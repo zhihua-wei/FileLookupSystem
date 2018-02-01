@@ -92,7 +92,7 @@
  */
 function submit_variation(){
 	var path = $("#path").val();
-	var path = $("#path").val();
+	var file = $("#file").val();
 }
 </script>
 <!--END SCRIPTS-->
