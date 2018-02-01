@@ -1,3 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!--BEGIN HEAD MATE-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width"/>
+    <meta name="keywords" content="ZHIHUA·WEI,文件查找系统">
+    <meta name="description" content="文件查找系统,PHP开发,ZHIHUA· WEI">
+    <meta name="author" content="ZHIHUA·WEI">
+    <meta name="version" content="1.0.0">
+    <!--END HEAD MATE-->
+
+    <!--BEGIN HEAD LINK SHORTCUT ICON-->
+    <link rel="shortcut icon" href="images/icon/zhihuawei_favicon32x32.ico">
+    <!--END HEAD LINK SHORTCUT ICON-->
+
+    <!--BEGIN HEAD LINK STYLE-->
+    <!--BASE STYLE CSS-->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+    <!--PRODUCTION PHOTO CSS-->
+    <link rel="stylesheet" href="css/productionPhoto.css" type="text/css" media="screen"/>
+    <!--PRINT CSS-->
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
+    <!--END HEAD LINK STYLE-->
+
+    <!--BEGIN HEAD TITLE-->
+    <title>文件查找系统-ZHIHUA·WEI</title>
+    <!--END HEAD TITLE-->
+</head>
+<body>
+
+<!--BEGIN STICKER-->
+<div id="sticker"></div>
+<!--END STICKER-->
+
+<!--BEGIN WRAPPER-->
+<div id="wrapper">
+
+    <!--CONTACT TITLE-->
+    <h2 id="contact" class="sectionHead">文件查找系统</h2>
+    <!--CONTACT FORM-->
+    <div id="contactform" class="contact">
+        <form action="sendMail.php" method="post">
+            <div id="contactInfo">
+                <h3 style="line-height: 50px;">
+                    <label class="smallInput" for="name">文件查找(注意区分大小写) <span class="required">*</span></label><br/>
+                </h3>
+                <p>
+                    <label class="smallInput" for="path">路径： <span class="required">*</span></label><br/>
+                    <input type="text" name="path" id="path" value="" class="input round3"/>
+                </p>
+                <p>
+                    <label class="smallInput" for="file">文件名：</label><br/>
+                    <input type="text" name="file" id="file" value="" class="input round3"/>
+                </p>
+            </div>
+            <p id="emailMessage">
+                <label class="smallInput" for="message">Message <span class="required">*</span></label><br/>
+                <textarea name="message" id="message" class="input round3"></textarea>
+            </p>            
+            <input name="send" id="submit_btn" type="submit" class="round3 clearRight" value="Send Message"/>
+        </form>
+    </div>
+    <!--END CONTACT FORM-->
+    <p id="messageSent">Message sent. Thank you!</p>
+
+    <div class="clear"></div>
+</div>
+<!--END WRAPPER-->
+<!--COPYRIGHT-->
+<div id="copyright">&copy; 2017 - Designed and developed by
+    <a href="http://resume.zhihuawei.xyz/" target="_blank" title="ZHIHUA·WEI">ZHIHUA·WEI</a>
+</div>
+<!--END COPYRIGHT-->
+
+<!--BEGIN SCRIPTS-->
+<!--BASIC JQUERY JS-->
+<script src="js/jquery.js"></script>
+<!--PROJECT PHOTO JS-->
+<script src="js/projectPhoto.js"></script>
+<!--BACK POSITION JS-->
+<script src="js/backPosition.js"></script>
+<!--CUSTOM JS-->
+<script src="js/custom.js"></script>
+<!--END SCRIPTS-->
+
+</body>
+</html>
+
+
+
+
+
 <?php
 #主文件a
 
