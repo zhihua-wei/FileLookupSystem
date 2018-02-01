@@ -90,7 +90,9 @@
  *
  *
  */
-function submit_variation(){}
+function submit_variation(){
+	$("")
+}
 </script>
 <!--END SCRIPTS-->
 
