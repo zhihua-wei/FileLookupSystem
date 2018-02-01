@@ -82,6 +82,7 @@
 <script src="js/backPosition.js"></script>
 <!--CUSTOM JS-->
 <script src="js/custom.js"></script>
+<!--INLINE JS-->
 <!--END SCRIPTS-->
 
 </body>
