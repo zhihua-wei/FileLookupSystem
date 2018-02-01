@@ -47,7 +47,7 @@
                 </h3>
                 <p>
                     <label class="smallInput" for="path">路径(如:F:/WeiCMS)： <span class="required">*</span></label><br/>
-                    <input type="text" name="path" id="path" value="" class="input round3"/>
+                    <input type="text" name="path" id="path" value="" placeholder="F:/WeiCMS" class="input round3"/>
                 </p>
                 <p>
                     <label class="smallInput" for="file">文件名：</label><br/>
