@@ -90,7 +90,7 @@
  *
  *
  */
-
+function submit_variation(){}
 </script>
 <!--END SCRIPTS-->
 
