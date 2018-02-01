@@ -46,7 +46,7 @@
                     <label class="smallInput" for="name">文件查找(注意区分大小写) <span class="required">*</span></label><br/>
                 </h3>
                 <p>
-                    <label class="smallInput" for="path">路径： <span class="required">*</span></label><br/>
+                    <label class="smallInput" for="path">路径(如:F:/WeiCMS)： <span class="required">*</span></label><br/>
                     <input type="text" name="path" id="path" value="" class="input round3"/>
                 </p>
                 <p>
