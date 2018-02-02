@@ -58,7 +58,7 @@
                 <label class="smallInput" for="message"> 查找结果 <span class="required">*</span></label><br/>
                 <textarea name="message" id="message" class="input round3"></textarea>
             </p>            
-            <input name="send" id="submit_btn" type="submit" class="round3 clearRight" value="FIND FILE"/>
+            <input name="send" id="submit_btn" type="button" class="round3 clearRight" value="FIND FILE"/>
         </form>
     </div>
     <!--END CONTACT FORM-->
