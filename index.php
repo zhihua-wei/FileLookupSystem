@@ -99,6 +99,8 @@ function submit_variation(){
 		return false;
     }
 	
+	if
+	
 }
 </script>
 <!--END SCRIPTS-->
