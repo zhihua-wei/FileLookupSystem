@@ -100,7 +100,7 @@ function submit_variation(){
     }
 	
 	if(file == ''){
-		alert("请填写磁盘绝对路径");
+		alert("请填写所查找");
 		$("#file").focus();
 		return false;
 	}
