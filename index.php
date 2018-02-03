@@ -95,6 +95,7 @@ function submit_variation(){
 	
 	if (path == '') {
         alert("请填写磁盘绝对路径");
+		$("#path").fouce();
     }
 	
 }
