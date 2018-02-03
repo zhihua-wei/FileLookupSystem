@@ -61,11 +61,7 @@
             <input name="send" id="submit_btn" onclick="submit_variation()" type="submit" class="round3 clearRight" value="FIND FILE"/>
         </form>
     </div>
-    <!--END CONTACT FORM-->
-	<div>
-		<p id="messageSent" style="display:block">Message sent. Thank you!</p>
-	</div>
-    
+       
 
     <div class="clear"></div>
 </div>
