@@ -94,7 +94,7 @@ function submit_variation(){
 	console.log(file);
 	
 	if (1) {
-        $('#messageSent').fadeIn(800);
+        
     }
 	
 }
