@@ -62,7 +62,7 @@
         </form>
     </div>
     <!--END CONTACT FORM-->
-    <p id="messageSent">Message sent. Thank you!</p>
+    <p id="messageSent" style="display:block">Message sent. Thank you!</p>
 
     <div class="clear"></div>
 </div>
