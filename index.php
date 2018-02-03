@@ -61,7 +61,6 @@
             <input name="send" id="submit_btn" onclick="submit_variation()" type="submit" class="round3 clearRight" value="FIND FILE"/>
         </form>
     </div>
-       
     <div class="clear"></div>
 </div>
 <!--END WRAPPER-->
