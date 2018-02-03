@@ -94,6 +94,13 @@ function submit_variation(){
 	var path = $("#path").val();
 	var file = $("#file").val();
 	console.log(file);
+	
+	if (1) {
+        $('#contactform').slideUp(800, function () {
+            $('#messageSent').fadeIn(800);
+        });
+    }
+	
 }
 </script>
 <!--END SCRIPTS-->
