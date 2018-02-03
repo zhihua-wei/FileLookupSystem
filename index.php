@@ -100,7 +100,7 @@ function submit_variation(){
     }
 	
 	if(file == ''){
-		alert("请填写所查找");
+		alert("请填写所查找文件名");
 		$("#file").focus();
 		return false;
 	}
