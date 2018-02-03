@@ -99,7 +99,11 @@ function submit_variation(){
 		return false;
     }
 	
-	if(file == ''){}
+	if(file == ''){
+		alert("请填写磁盘绝对路径");
+		$("#path").focus();
+		return false;
+	}
 	
 }
 </script>
