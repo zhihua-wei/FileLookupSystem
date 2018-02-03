@@ -93,8 +93,8 @@ function submit_variation(){
 	var file = $("#file").val();
 	console.log(file);
 	
-	if (1) {
-        
+	if (path == '') {
+        alert("请填写磁盘绝对路径");
     }
 	
 }
