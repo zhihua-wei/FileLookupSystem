@@ -101,7 +101,7 @@ function submit_variation(){
 	
 	if(file == ''){
 		alert("请填写磁盘绝对路径");
-		$("#path").focus();
+		$("#file").focus();
 		return false;
 	}
 	
