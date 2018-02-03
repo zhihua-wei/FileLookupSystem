@@ -35,7 +35,7 @@ $(document).ready(function () {
     ////////////////
     //SOME MESSAGE...
     ///////////////
-    console.log("welcome use File Lookup System Design by ZHIHUA·WEI resume system!");
+    console.log("welcome use File Lookup System Design by ZHIHUA·WEI!");
     console.log("if you want konw more about ZHIHUA·WEI, you can visit the personal site http://resume.zhihuawei.xyz!");
 
     ////////////////
