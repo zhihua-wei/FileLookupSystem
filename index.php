@@ -58,7 +58,7 @@
                 <label class="smallInput" for="message"> 查找结果 <span class="required">*</span></label><br/>
                 <textarea name="message" id="message" class="input round3"></textarea>
             </p>            
-            <input name="send" id="submit_btn" onclick="submit_variation()" type="button" class="round3 clearRight" value="FIND FILE"/>
+            <input name="send" id="submit_btn" onclick="submit_variation()" type="submit" class="round3 clearRight" value="FIND FILE"/>
         </form>
     </div>
     <!--END CONTACT FORM-->
@@ -96,9 +96,7 @@ function submit_variation(){
 	console.log(file);
 	
 	if (1) {
-        $('#contactform').slideUp(800, function () {
-            $('#messageSent').fadeIn(800);
-        });
+        $('#messageSent').fadeIn(800);
     }
 	
 }
