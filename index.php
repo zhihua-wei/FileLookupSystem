@@ -103,8 +103,7 @@ function submit_variation(){
 		alert("请填写所查找文件名");
 		$("#file").focus();
 		return false;
-	}
-	
+	}	
 }
 </script>
 <!--END SCRIPTS-->
