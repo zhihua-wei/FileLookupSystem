@@ -113,7 +113,7 @@ function submit_variation(){
 </html>
 <?php
 $path = $_POST['path'];
-$file = 
+$file = $_POST[];
 
 ?>
 
