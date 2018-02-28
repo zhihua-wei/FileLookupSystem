@@ -112,7 +112,7 @@ function submit_variation(){
 </body>
 </html>
 <?php
-$path = $_POST[];
+$path = $_POST['path'];
 
 ?>
 
