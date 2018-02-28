@@ -112,5 +112,7 @@ function submit_variation(){
 </body>
 </html>
 <?php
+
+
 ?>
 
