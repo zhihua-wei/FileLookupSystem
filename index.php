@@ -115,6 +115,7 @@ function submit_variation(){
 $path = $_POST['path'];
 $file = $_POST['file'];
 
+if
 
 
 ?>
