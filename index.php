@@ -117,6 +117,8 @@ $file = $_POST['file'];
 
 if(!empty($path) && !empty($file)){
 	echo "在路径 ".$path."/ 中查找 ".$file" 的结果为：<hr/>";
+	$file_num = $dir_num = 0;
+    $r_file_num = $r_dir_num= 0;
 	
 }else{
 	echo "路径地址输入错误或文件名输入错误";
