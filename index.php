@@ -116,6 +116,7 @@ $path = $_POST['path'];
 $file = $_POST['file'];
 
 if(!empty($path) && !empty($file)){
+	echo "在路径 ".$_POST['path']."/ 中查找 ".$_POST['key']." 的结果为：<hr/>";
 	
 }else{
 	echo "路径地址输入错误或文件名输入错误";
