@@ -115,7 +115,9 @@ function submit_variation(){
 $path = $_POST['path'];
 $file = $_POST['file'];
 
-if(empty($path) || empty($file)){
+if(!empty($path) && !empty($file)){
+	
+}else{
 	
 }
 
