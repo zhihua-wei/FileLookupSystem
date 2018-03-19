@@ -122,7 +122,7 @@ if(!empty($path) && !empty($file)){
 	
 	/**
 	 * 用于查找路径下的所有文件夹和文件
-	 *
+	 * @param $dirName string 路径
 	 *
 	 *
 	 */
