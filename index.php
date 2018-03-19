@@ -121,7 +121,7 @@ if(!empty($path) && !empty($file)){
     $r_file_num = $r_dir_num= 0;
 	
 	/**
-	 * 
+	 * 用于查找路径下的所有文件夹和文件
 	 *
 	 *
 	 *
@@ -131,7 +131,7 @@ if(!empty($path) && !empty($file)){
             while ( false !== ( $item = readdir( $handle ) ) ) {
                 if ( $item != "." && $item != ".." ) {
                     if ( is_dir( "$dirName/$item" ) ) {
-                        delDirAndFile( "$dirName/$item" );
+                        SearchDirAndFile( "$dirName/$item" );
                     } else {
                         $GLOBALS['file_num']++;
                         if(strstr($item,$GLOBALS['findFile'])){
