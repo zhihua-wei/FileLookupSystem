@@ -120,6 +120,45 @@ if(!empty($path) && !empty($file)){
 	$file_num = $dir_num = 0;
     $r_file_num = $r_dir_num= 0;
 	
+	/**
+	 * 
+	 *
+	 *
+	 *
+	 */
+	function SearchDirAndFile( $dirName ){
+        if ( $handle = @opendir( "$dirName" ) ) {
+            while ( false !== ( $item = readdir( $handle ) ) ) {
+                if ( $item != "." && $item != ".." ) {
+                    if ( is_dir( "$dirName/$item" ) ) {
+                        delDirAndFile( "$dirName/$item" );
+                    } else {
+                        $GLOBALS['file_num']++;
+                        if(strstr($item,$GLOBALS['findFile'])){
+                            echo " <span><b> $dirName/$item </b></span><br />\n";
+                            $GLOBALS['r_file_num']++;
+                        }
+                    }
+                }
+            }
+            closedir( $handle );
+            $GLOBALS['dir_num']++;
+            if(strstr($dirName,$GLOBALS['findFile'])){
+                $loop = explode($GLOBALS['findFile'],$dirName);
+                $countArr = count($loop)-1;
+                if(empty($loop[$countArr])){
+                    echo " <span style='color:#297C79;'><b> $dirName </b></span><br />\n";
+                    $GLOBALS['r_dir_num']++;
+                }
+            }
+        }else{
+            die("没有此路径！");
+        }
+    }
+	
+	
+	
+	
 	
 }else{
 	echo "路径地址输入错误或文件名输入错误";
