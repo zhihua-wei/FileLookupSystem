@@ -14,7 +14,7 @@
 </html>
 <?php
 /*
- * 注：区分大小写
+ * 
  * by:
  */
 if(!empty($_POST['path'])&&!empty($_POST['key'])){
