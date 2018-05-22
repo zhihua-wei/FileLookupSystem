@@ -15,7 +15,7 @@
 <?php
 /*
  * 注：区分大小写
- * by: http://www.jb51.net
+ * by:
  */
 if(!empty($_POST['path'])&&!empty($_POST['key'])){
     echo "在路径 ".$_POST['path']."/ 中查找 ".$_POST['key']." 的结果为：<hr/>";
