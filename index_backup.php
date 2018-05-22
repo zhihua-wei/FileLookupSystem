@@ -13,10 +13,6 @@
 </body>
 </html>
 <?php
-/*
- * 
- * by:
- */
 if(!empty($_POST['path'])&&!empty($_POST['key'])){
     echo "在路径 ".$_POST['path']."/ 中查找 ".$_POST['key']." 的结果为：<hr/>";
     $file_num = $dir_num = 0;
