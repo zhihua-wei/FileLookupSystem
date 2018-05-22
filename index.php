@@ -158,5 +158,3 @@ if(!empty($path) && !empty($file)){
 	echo "路径地址输入错误或文件名输入错误";
 }
 
-
-
