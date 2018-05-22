@@ -152,7 +152,7 @@ if(!empty($path) && !empty($file)){
         }else{
             die("没有此路径！");
         }
-    }	
+    }
 	
 }else{
 	echo "路径地址输入错误或文件名输入错误";
